@@ -1,0 +1,142 @@
+
+body {
+    background-color: azure;
+}
+
+#size-box {
+    margin-top: 20px;
+}
+
+.introduction {
+    background-color: brown;
+    border: 3px solid black;
+    width: 25vw;
+    height: 100vh;
+    position: fixed;
+}
+
+#introductionttl {
+    left: 0;
+    top: 0;
+}
+
+.selection {
+    color: rgb(211, 156, 36);
+}
+
+.selection:hover {
+    color: rgb(139, 101, 18);
+}
+
+.img1 {
+    border: 7px solid purple;
+    border-radius: 50%;
+    height: 48vh;
+    width: 20vw;
+    margin-left: 2vw;
+    margin-top: 10vh;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.alignlink {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.movetoright {
+    margin-top: 17vh;
+    margin-left: 35vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+
+}
+
+.purple {
+    color: purple;
+}
+
+.info {
+    margin-left: 30vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -7vh;
+}
+.emailpurple {
+    color: purple;
+    text-decoration: none;
+}
+
+.emailpurple:hover {
+    color: chocolate;
+}
+
+#img2 {
+    margin-left: 28vw;
+    margin-top: 2vh;
+    height: 64px;
+    width: 64px;
+    border: 5px solid purple;
+    border-radius: 50%;
+
+}
+
+.img3 {
+    height: 64px;
+    width: 64px;
+    border: 5px solid purple;
+    border-radius: 50%;
+    margin-left: 2vw;
+
+}
+
+#img2:hover {
+    border: 5px solid blue;
+}
+
+.img3:hover {
+    border: 5px solid blue;
+}
+
+.good-font {
+    font-size: 35px;
+    font-family: serif, 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30vw;
+    margin-top: 30vh;
+}
+
+.knowledge-center {
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+}
+
+.knowledge-center::first-letter {
+    color: blueviolet;
+    font-size: 100px;
+}
+
+#borderradius {
+    font-size: 30px;
+    border: 5px solid chocolate;
+    border-radius: 15px;
+    position: relative;
+    background-color: blueviolet;
+    color: white;
+    width: 50vw;
+    margin-left: 30vw;
+    margin-top: 20vh;
+    padding: 20px;
+}
+
+.showbox::selection {
+    background-color:black ;
+    color: purple;
+}
