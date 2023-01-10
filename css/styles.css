@@ -126,13 +126,13 @@ a:hover {
 #borderradius {
     font-size: 30px;
     border: 5px solid chocolate;
-    border-radius: 15px;
+    border-radius: 30px;
     position: relative;
     background-color: blueviolet;
     color: white;
     width: 50vw;
     margin-left: 30vw;
-    margin-top: 20vh;
+    margin-top: 15vh;
     padding: 20px;
 }
 
@@ -140,3 +140,4 @@ a:hover {
     background-color:black ;
     color: purple;
 }
+
